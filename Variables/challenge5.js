@@ -1,3 +1,4 @@
+// A streaming platform wants to automatically classify films according to their duration.
 const readline = require('node:readline');
 const rl = readline.createInterface({
     input: process.stdin,

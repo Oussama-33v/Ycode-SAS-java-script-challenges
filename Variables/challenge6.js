@@ -1,3 +1,4 @@
+//Calculating an exam score
 const readline = require('node:readline');
 const rl = readline.createInterface({
     input: process.stdin,
