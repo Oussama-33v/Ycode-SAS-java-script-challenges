@@ -10,8 +10,14 @@ rl.question('Enter score partie 1:', function(parte1){
             rl.question('Enter score partie 4:', function(parte4){
                 let total = Number(parte1) + Number(parte2) + Number(parte3) + Number(parte4);
                 let Moyenne = total / 4;
-                console.log("The total score :", total);
-                console.log("The average score", Moyenne);
+                if(total > 80){
+                    console.log('total notes is too big');
+                    rl.close();
+                }
+                else{
+                    console.log("The total score :", total);
+                    console.log("The average score", Moyenne);
+                }
                 rl.close();
             });
         });
