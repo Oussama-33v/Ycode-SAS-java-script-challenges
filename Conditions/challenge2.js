@@ -1,3 +1,4 @@
+// A school wants to automatically display the grade obtained by a student based on their score.
 const prompt = require('prompt-sync')();
 let Grade = +prompt('enter the grade');
 //invied grades hundel
