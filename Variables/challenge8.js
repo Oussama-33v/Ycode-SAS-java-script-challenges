@@ -11,4 +11,3 @@ rl.question('enter the voltage of your battery :', function(U){
         });
     });
 });
-
