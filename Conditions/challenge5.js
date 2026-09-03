@@ -8,7 +8,7 @@ console.log('**********************************');
 
 let dish = +prompte('haw can i help you sir ?:');
 let quantity = +prompte('haw much you want? :');
-let total
+let total;
 switch(dish){
     case 1:
         console.log('pizza 60dh\n', 'price :',total = 60 * quantity);
