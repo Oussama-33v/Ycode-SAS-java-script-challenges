@@ -3,19 +3,13 @@ const prompte = require('prompt-sync')();
 
 function userInput(){
     let name = prompte('enrt full name :');
-    let title = prompte('what city your leving at :');
-    return [name, city];
+    let city = prompte('what city your leving at :');
+    return name;
 }
-function saluerClient(client, addres){
-    if(client === true || subject === true){
-        return ('hello mr ', client);
-    }
-    else{
-        return('hello mr.',client, 'from ', addres);
-    }
+function saluerClient(client, title){
+    
 }
-
-
 let user = userInput();
+
 let output = saluerClient(user);
-console.log(user);
+console.log(output);
