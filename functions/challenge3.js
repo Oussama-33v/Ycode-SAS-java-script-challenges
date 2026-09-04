@@ -6,7 +6,7 @@ let numbers;
 function getUserInpt() { // this function is to tack input from user as a list
     do {
         numbers = +prompt('enter your numbers and type done whene you finish :');
-        if (!isNaN(numbers) && numbers !== null && numbers !== ""){ // this line is to tchack the input quality
+        if (!isNaN(numbers) && numbers !== null && numbers !== " "){ // this line is to chacke the input quality
         nuser[nuser.length] = numbers;
         }
         else{
