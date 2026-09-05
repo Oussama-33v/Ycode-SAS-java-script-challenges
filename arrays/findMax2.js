@@ -14,20 +14,26 @@ function getUserInput() {
     } while (true);
     return list;
 }
+function arryLength(array){
+    let counter = 0;
+    while (array[counter]){
+        counter++;
+    }
+    return counter;
+}
 // console.log(input)
 function findElemente(array){
-    let maxElemante;
-    for (i = 0, i; i <= array.length; i++){
-        if(array[i] >= array[i + 1]){
+    let maxElemante = array[0];
+    let i = 0;
+    for (i in array){
+        if(array[i] >= maxElemante){
             maxElemante = array[i];
         }
-        else{
-            i++;
-        }
-    return maxElemante;
     }
+    return maxElemante;
 }
 input = getUserInput();
 console.log(input)
-maxelm = findElemente(input);
-console.log(maxelm)
+maxelem = findElemente(input);
+console.log(len = arryLength(input));
+console.log(maxelem);
