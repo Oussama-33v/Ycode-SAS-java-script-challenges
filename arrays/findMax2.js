@@ -22,7 +22,7 @@ function arryLength(array){
     return counter;
 }
 // console.log(input)
-function findElemente(array){
+function findMaxElemente(array){
     let maxElemante = array[0];
     let i = 0;
     for (i in array){
@@ -34,6 +34,5 @@ function findElemente(array){
 }
 input = getUserInput();
 console.log(input)
-maxelem = findElemente(input);
-console.log(len = arryLength(input));
+maxelem = findMaxElemente(input);
 console.log(maxelem);
